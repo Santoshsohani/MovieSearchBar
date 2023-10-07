@@ -1,0 +1,16 @@
+.login{
+   display: flex;
+   background-image: linear-gradient(to right, #994ECC, #3E187A);
+  justify-content: center;
+  align-items: center; 
+  height: 100vh;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1em 2.5em;
+    border-radius: 14px;
+}

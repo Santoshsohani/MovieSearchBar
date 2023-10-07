@@ -1,0 +1,43 @@
+/* SearchBar container styles */
+.search-bar {
+  padding: 2em 0;
+  text-align: center;
+}
+
+.search {
+  width: 100%;
+  max-width: 400px; 
+  margin: 2em auto;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+/* Search heading styles */
+.search-head {
+  font-size: 36px;
+  color: white;
+}
+
+.movie-list{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+
+/* Responsive styles for screens smaller than 768px */
+@media (max-width: 768px) {
+  /* Adjust Search input width for smaller screens */
+  .search {
+    width: 90%;
+    max-width: 100%; /* Allow it to expand to full width on smaller screens */
+  }
+
+  /* Adjust Search heading font size for smaller screens */
+  .search-head {
+    font-size: 28px;
+  }
+}
